@@ -1,0 +1,7 @@
+Procedure
+
+1. copy the dll in the folder where exe is located.
+2. include the header file in the exe (#include that particular header file)
+3. Add the .lib file in the settings (Linker -> Include -> Additional Dependencies)
+4. Provide the path of the header file in the settings (C/C++ -> General -> AdditionalIncludeDirectories then browse the path for the folder whereheader file is located)
+
